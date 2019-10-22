@@ -21,9 +21,9 @@ if name == "John" or name == "Rick":
 
 if name in ["John", "Rick"]:
     print "Su nombre puede ser John or Rick."
-Python usa indentacion para definir bloques de código, en lugar de llaves o paréntesis. El estandar de indentacion de python es 4 espacios, aunque el tab y algunos otros espacios funcionará, siempre y cuando sean consistente, es decir tengan el mismo tipo de sangrado (separación). Los bloques de código no necesitan de una terminación.
+#Python usa indentacion para definir bloques de código, en lugar de llaves o paréntesis. El estandar de indentacion de python es 4 espacios, aunque el tab y algunos otros espacios funcionará, siempre y cuando sean consistente, es decir tengan el mismo tipo de sangrado (separación). Los bloques de código no necesitan de una terminación.
 
-Este es un ejemplo de como usar en python la declaración de la sentencia if usando bloques de códigos:
+#Este es un ejemplo de como usar en python la declaración de la sentencia if usando bloques de códigos:
 
 if <declariación a evaluar>:
     <líneas de código>
@@ -37,16 +37,16 @@ else:
     <código>
     ....
     ....
-Por ejemplo:
+#Por ejemplo:
 
 x = 2
 if x == 2:
     print "x igual dos!"
 else:
     print "x no es igual a dos."
-Una declaración es evaluada como verdadera, si solo su iteración o flujo es correcta: - El resultado verdadero de una variable booleana se obtiene, o se calcula utilizando una expresión, como una compración aritmética. - Un objeto que no es considerado vacío es pasado. - An object which is not considered "empty" is passed.
+#Una declaración es evaluada como verdadera, si solo su iteración o flujo es correcta: - El resultado verdadero de una variable booleana se obtiene, o se calcula utilizando una expresión, como una compración aritmética. - Un objeto que no es considerado vacío es pasado. - An object which is not considered "empty" is passed.
 
-Se presenta algunos ejemplos donde los objetos son considerados como vacíos:
+#Se presenta algunos ejemplos donde los objetos son considerados como vacíos:
 
 Una Cadena vacia: ""
 Una lista vacia: []

@@ -15,14 +15,24 @@ micadena = 'Hola'
 micadena = "Hola"
 #La diferencia ente las dos es que usando doble comillas lo hace mas facil de incluir los apostofres (de lo contrario concluirira la cadena si se usa doble comillas)
 
-    micadena = "No te preocupes de los 'apostofres' usando comillas dobles"
+micadena = "No te preocupes de los 'apostofres' usando comillas dobles"
 #There are additional variations on defining strings that make it easier to include things such as carriage returns, backslashes and Unicode characters. These are beyond the scope of this tutorial, but are covered in the Python documentation.
 
-#Operadores sencillos pueden ser ejecutados en números o cadenas:
+#To combine both text and a variable, Python uses the + character:
+x = "awesome"
+print("Python is " + x)
 
+#For numbers, the + character works as a mathematical operator:
 uno = 1
 dos = 2
 tres = uno + dos
+print(tres)
+
+#You can also use the + character to add a variable to another variable:
+x = "Python is "
+y = "awesome"
+z =  x + y
+print(z)
 
 hola = "hola"
 mundo = "mundo"

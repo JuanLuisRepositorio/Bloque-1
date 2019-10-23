@@ -25,6 +25,10 @@ micadena = "Hola"
 #La diferencia ente las dos es que usando doble comillas lo hace mas facil de incluir los apostofres (de lo contrario concluirira la cadena si se usa doble comillas)
 micadena = "No te preocupes de los 'apostofres' usando comillas dobles"
 
+#booleanos
+x = True
+y = False
+
 #Combinar variables
 #Podemos usar el caracter + para anadir una variable a otra:
 x = "Python is "

@@ -1,3 +1,6 @@
+#print nos sirve para imprimir la variable o texto que queramos, nos ayuda a conocer el conetenido de las variables o a mostrar resultados
+print("Hola mundo")
+
 #Numeros
 #Python soporta dos tipos de números - integrales y numeros de punto flotante. (Tambien soporta numeros complejos, los cuales no se explicarán en este tutorial).
 #Para definir un integral, usa la siguiente sintaxis:

@@ -25,3 +25,22 @@ resultado = 'fox' in pets
 print(resultado)
 
 #operadores logicos
+#si las condiciones de ambos lados son True, entonces la expresión completa es True
+x = 6
+y = 2
+resultado = (x>7)&(y>-1)
+print(resultado) 
+
+#Si las condiciones de uno de los dos lados es True, entonces la expresión completa es True
+
+x = 6
+y = 2
+resultado = (x>7)|(y>-1)
+print(resultado) 
+
+
+#not combierte True a False y viceversa
+resultado=not(True)
+print(resultado)
+
+

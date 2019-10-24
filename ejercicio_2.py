@@ -21,5 +21,5 @@ resultado_3 = c==True
 print(resultado_3)
 
 #d
-resultado_4 = (d<35)&(d>=34)
+resultado_4 = (d<35)and(d>=34)
 print(resultado_4)

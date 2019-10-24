@@ -69,7 +69,7 @@ thislist = ["apple", "banana", "cherry"]
 print(len(thislist))
 
 #contar cuanto se repite un determinado elemento de una lista
-fruits = ['cherry', apple', 'banana', 'cherry']
+fruits = ['cherry', 'apple', 'banana', 'cherry']
 x = fruits.count("cherry")
 
 

@@ -29,6 +29,17 @@ micadena = "No te preocupes de los 'apostofres' usando comillas dobles"
 x = True
 y = False
 
+#borrar variables
+x = 120
+del x
+print(x)
+
+#limpiar variables
+x = 120
+print(x)
+x = None
+print("despues de limpiar la variable:" + str(x))
+
 #Combinar variables
 #Podemos usar el caracter + para anadir una variable a otra:
 x = "Python is "

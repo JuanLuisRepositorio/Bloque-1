@@ -19,7 +19,7 @@ print(thislist[-1])
 thislist = [1, 2, 3, 4, 5, 6, 7]
 print(thislist[2:5])
 
-#Accediendo un indice que no exista generará un error.
+#Accediendo un indice que no exista generara un error.
 mylist = [1,2,3]
 print (mylist[10])
 
@@ -68,5 +68,8 @@ print(index)
 thislist = ["apple", "banana", "cherry"]
 print(len(thislist))
 
+#contar cuanto se repite un determinado elemento de una lista
+fruits = ['cherry', apple', 'banana', 'cherry']
+x = fruits.count("cherry")
 
 

@@ -28,14 +28,14 @@ print(resultado)
 #si las condiciones de ambos lados son True, entonces la expresión completa es True
 x = 6
 y = 2
-resultado = (x>7)&(y>-1)
+resultado = (x>7)and(y>-1)
 print(resultado) 
 
 #Si las condiciones de uno de los dos lados es True, entonces la expresión completa es True
 
 x = 6
 y = 2
-resultado = (x>7)|(y>-1)
+resultado = (x>7)or(y>-1)
 print(resultado) 
 
 

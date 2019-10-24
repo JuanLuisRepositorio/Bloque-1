@@ -38,3 +38,26 @@ x = 120
 print(x)
 x = None
 print("despues de limpiar la variable:" + str(x))
+
+#asingnar multiples variables
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+#cambiar variables de un tipo a otro
+#enteros
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
+
+#realesx = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2
+
+#cadenas
+x = str("s1") # x will be 's1'
+y = str(2)    # y will be '2'
+z = str(3.0)  # z will be '3.0'
+

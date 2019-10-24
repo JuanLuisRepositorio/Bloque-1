@@ -73,3 +73,16 @@ fruits = ['cherry', 'apple', 'banana', 'cherry']
 x = fruits.count("cherry")
 print(x)
 
+#ordenar una lista
+#ordenar decreciente
+
+x = [4, 6, 3, -5]
+x.sort()
+print(x)
+
+#ordenar creciente
+
+x = [4, 6, 3, -5]
+x.sort(reverse = True)
+print(x)
+

@@ -3,6 +3,10 @@
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
 
+#también se pueden crear listas combinando diferentes tipos de datos
+thislist = [1, 10.0, "cherry"]
+print(thislist)
+
 #imprimir el segundo elemento de una lista
 thislist = ["apple", "banana", "cherry"]
 print(thislist[1])
@@ -11,14 +15,13 @@ print(thislist[1])
 thislist = ["apple", "banana", "cherry"]
 print(thislist[-1])
 
+#imprimir el tercero, cuarto y quinto elemento de una lista
+thislist = [1, 2, 3, 4, 5, 6, 7]
+print(thislist[2:5])
 
 #Accediendo un indice que no exista generará un error.
 mylist = [1,2,3]
 print (mylist[10])
-
-#imprimir el tercero, cuarto y quinto elemento de una lista
-thislist = [1, 2, 3, 4, 5, 6, 7]
-print(thislist[2:5])
 
 #cambiar el valor del segundo elemento de una lista
 thislist = ["apple", "banana", "cherry"]
@@ -58,8 +61,12 @@ print(list3)
 
 #el metodo index() busca el indice de un elemento en la lista
 my_list = ['a','b','c']
-my_list.index('b')
+index = my_list.index('b')
+print(index)
 
+#imprimir el tamanio de una lista
+thislist = ["apple", "banana", "cherry"]
+print(len(thislist))
 
 
 

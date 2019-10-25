@@ -3,7 +3,9 @@
 #si hemos completado el ejercicio de forma satisfactoria apareceran en la consola los tres valores
 
 # Escribe tu propio codigo aqui
-
+micadena = None
+miflotante = None
+miIntegral = None
 
 # probando el codigo
 if micadena == "hola":

@@ -24,6 +24,9 @@ myint = 7
 midecimal = 7.0
 midecimal = float(7)
 
+print(myint)
+print(midecimal)
+
 #Ejemplo 4
 #booleanos
 x = True

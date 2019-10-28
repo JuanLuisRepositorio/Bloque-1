@@ -3,14 +3,14 @@
 #si hemos completado el ejercicio de forma satisfactoria apareceran en la consola los tres valores
 
 # Escribe tu propio codigo aqui
-micadena = None
-miflotante = None
-miIntegral = None
+micadena = "hola"
+mireal = 10.0
+mientero = 20
 
 # probando el codigo
 if micadena == "hola":
-    print "Cadena: %s" % micadena
-if isinstance(miflotante, float) and miflotante == 10.0:
-    print "Flotante: %d" % miflotante
-if isinstance(miIntegral, int) and miIntegral == 20:
-    print "Integral: %d" % miIntegral
+    print ("Cadena: " + micadena)
+if isinstance(mireal, float) and mireal == 10.0:
+    print ("Real: " + str(mireal))
+if isinstance(mientero, int) and mientero == 20:
+    print ("Entero: " + str(mientero))

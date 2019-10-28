@@ -4,8 +4,10 @@ print("Hola mundo")
 #Las variables son contenedores para almacenar datos, una variable se crea en el momento en el que le damos un valor
 x = 5
 y = "John"
+z = [1,2,3,5]
 print(x)
 print(y)
+print(z)
 
 #Numeros
 #Python soporta dos tipos de números - integrales y numeros de punto flotante. (Tambien soporta numeros complejos, los cuales no se explicarán en este tutorial).

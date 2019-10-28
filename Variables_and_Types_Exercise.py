@@ -3,9 +3,9 @@
 #si hemos completado el ejercicio de forma satisfactoria apareceran en la consola los tres valores
 
 # Escribe tu propio codigo aqui
-micadena = "hola"
-mireal = 10.0
-mientero = 20
+micadena = None
+mireal = None
+mientero = None
 
 # probando el codigo
 if micadena == "hola":

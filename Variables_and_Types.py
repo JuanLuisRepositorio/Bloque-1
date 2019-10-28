@@ -1,15 +1,21 @@
+#Ejemplo 1
 #print nos sirve para imprimir la variable o texto que queramos, nos ayuda a conocer el conetenido de las variables o a mostrar resultados
 print("Hola mundo")
 
-#Las variables son contenedores para almacenar datos, una variable se crea en el momento en el que le damos un valor
-x = 5
-y = "John"
-z = [1,2,3,5]
-print(x)
-print(y)
-print(z)
+#Ejemplo 2
+#Las cadenas estan definidas con comillas sencillas o compuestas.
+micadena_simple = 'Hola'
+micadena_doble = "Hola"
+print(micadena_simple)
+print(micadena_doble)
 
-#Numeros
+#La diferencia ente las dos es que usando doble comillas lo hace mas facil de incluir los apostofres (de lo contrario concluirira la cadena si se usa doble comillas)
+micadena_comillas = "No te preocupes de los 'apostofres' usando comillas dobles"
+
+print(micadena_comillas)
+
+
+#Ejemplo 3
 #Python soporta dos tipos de números - integrales y numeros de punto flotante. (Tambien soporta numeros complejos, los cuales no se explicarán en este tutorial).
 #Para definir un integral, usa la siguiente sintaxis:
 myint = 7
@@ -17,14 +23,6 @@ myint = 7
 #Para definir un numero de punto flotante, debes usar una de las siguientes notaciones:
 midecimal = 7.0
 midecimal = float(7)
-
-#Cadenas
-#Las cadenas están definidas con comillas sencillas o compuestas.
-micadena = 'Hola'
-micadena = "Hola"
-
-#La diferencia ente las dos es que usando doble comillas lo hace mas facil de incluir los apostofres (de lo contrario concluirira la cadena si se usa doble comillas)
-micadena = "No te preocupes de los 'apostofres' usando comillas dobles"
 
 #booleanos
 x = True

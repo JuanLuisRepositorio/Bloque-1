@@ -1,9 +1,9 @@
+#print nos sirve para imprimir la variable o texto que queramos, nos ayuda a conocer el conetenido de las variables o a mostrar resultados
+print("Hola mundo")
+
 #Las variables son contenedores para almacenar datos, una variable se crea en el momento en el que le damos un valor
 x = 5
 y = "John"
-
-#print nos sirve para imprimir la variable o texto que queramos, nos ayuda a conocer el conetenido de las variables o a mostrar resultados
-print("Hola mundo")
 print(x)
 print(y)
 

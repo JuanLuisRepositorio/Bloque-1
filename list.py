@@ -1,4 +1,5 @@
-#Listas son como arreglos flexibles. Estos contienen variables que desees y todas los tipos de variables que esten soportados. Los elementos de la lista pueden ser iterated over! (se explicará mas adelante en el tutorial) o accediendo a ellos via un indice basado en cero.
+#Ejemplo 7
+#Las listas son conjuntos ordenados de elementos (números, cadenas, etc). Las listas se delimitan por corchetes ([ ]) y los elementos se separan por comas.
 #crear una lista
 thislist = ["apple", "banana", "cherry"]
 print(thislist)

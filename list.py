@@ -25,18 +25,18 @@ print(thislist[2:5])
 mylist = [1,2,3]
 print (mylist[10])
 
-#Ejemplo 9 asignar y anadir valores
+#Ejemplo 9 asignar, anadir y eliminar valores
 #cambiar el valor del segundo elemento de una lista
 thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
 
-#append nos permite añadir valores consecutivos a nuestra lista
+#append nos permite anadir valores consecutivos a nuestra lista
 thislist = ["apple", "banana", "cherry"]
 thislist.append("orange")
 print(thislist)
 
-#mediante insert podemos añadir un elemento una lista en una posicion concreta
+#mediante insert podemos anadir un elemento una lista en una posicion concreta
 thislist.insert(2, 'a')
 print(thislist)
 
@@ -50,17 +50,11 @@ thislist = ["apple", "banana", "cherry"]
 del thislist[0]
 print(thislist)
 
+#Ejemplo 10
 #limpiar una lista
 thislist = ["apple", "banana", "cherry"]
 thislist.clear()
 print(thislist)
-
-#unir dos listas
-list1 = ["a", "b" , "c"]
-list2 = [1, 2, 3]
-
-list3 = list1 + list2
-print(list3)
 
 #el metodo index() busca el indice de un elemento en la lista
 my_list = ['a','b','c']

@@ -8,6 +8,7 @@ print(thislist)
 thislist = [1, 10.0, "cherry"]
 print(thislist)
 
+#Ejemplo 8 acceder elementos de una lista
 #imprimir el segundo elemento de una lista
 thislist = ["apple", "banana", "cherry"]
 print(thislist[1])
@@ -24,6 +25,7 @@ print(thislist[2:5])
 mylist = [1,2,3]
 print (mylist[10])
 
+#Ejemplo 9 asignar y anadir valores
 #cambiar el valor del segundo elemento de una lista
 thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"

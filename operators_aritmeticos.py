@@ -42,6 +42,16 @@ list2 = [45, 9]
 list_total = list1 + list2
 print(list_total)
 
+#anadir y asignar
+a=2
+a+=2
+print(a)
+
+#lo mismo que esto
+a=2
+a=a+2
+print(a)
+
 #Ejemplo 12
 #menor que
 resultado = 3<4
@@ -74,15 +84,4 @@ print(resultado)
 #distinto de It checks if the value on the left of the operator is not equal to the one on the right.
 resultado =  1!=-1.0
 print(resultado)
-
-
-#anadir y asignar
-a=2
-a+=2
-print(a)
-
-#lo mismo que esto
-a=2
-a=a+2
-print(a)
 

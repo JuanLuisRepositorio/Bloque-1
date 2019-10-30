@@ -1,3 +1,4 @@
+#Ejemplo 11
 #operadores aritmeticos
 #suma, multiplicacion y division pueden usarse con numeros
 number = 3 + 2 * 3 / 4.0
@@ -6,7 +7,6 @@ print(number)
 #se pueden anadir parentesis para que unas operaciones se realicen antes que otras
 number = (3 + 2) * 3 / 4.0
 print(number)
-
 
 #operador modulo devuelve la parte entera de una division
 remainder = 11 % 3
@@ -17,6 +17,11 @@ squared = 7 ** 2
 cubed = 2 ** 3
 print(squared)
 print(cubed)
+
+#anadir y asignar
+a=2
+a+=2
+print(a)
 
 #Operar con cadenas
 #Podemos usar el caracter + para anadir una cadena a otra:
@@ -40,6 +45,7 @@ x=1
 y=3
 print (str(x) + str(y) + hola)
 
+#Ejemplo 12
 #menor que
 resultado = 3<4
 print(resultado)
@@ -71,25 +77,4 @@ print(resultado)
 #distinto de It checks if the value on the left of the operator is not equal to the one on the right.
 resultado =  1!=-1.0
 print(resultado)
-
-#asignar
-a=7
-print(a)
-
-#anadir y asignar
-a=2
-a+=2
-print(a)
-
-#lo mismo que esto
-a=2
-a=a+2
-print(a)
-
-#subtraer y asignar
-a=2
-a-=2
-print(a)
-
-
 

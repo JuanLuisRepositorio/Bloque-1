@@ -1,3 +1,4 @@
+#Ejemplo 12
 #operadores de identidad
 #is.
 #si dos variables son dienticas devuelve True si no devuelve False

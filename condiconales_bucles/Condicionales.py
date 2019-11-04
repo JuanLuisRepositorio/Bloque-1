@@ -1,29 +1,24 @@
-#Python hace uso de variables booleanas para evaluar condiciones. Cuando una expresión es comparada o evaluada los valores que boleanos que se retorna son falso o verdadero. Por ejemplo:
+#Ejemplo 1
+edad = int(input("Escriba su edad: "))
+nombre = input("Escriba su nombre: ")
 
-x = 2
-print x == 2 # Imprimira en pantalla TRUE
-print x == 3 # Imprimira en pantalla FALSE
-print x < 3  # Imprimira en pantalla TRUE
-#Nota: para asignar valores a una variable se utiliza el operador de igualdad "=", mientras que para comprar las variables entre ellas se hace uso de dos signos de igualdad "==". La no igualdad se realiza con el operador "!="
+#Comprobacion acceso por edad al contenido A
+if edad >= 18:
+    print("Ha accedido correctamente al contenido 'A'")
 
-#Operadores boleanos
-#Los operadores boleanos "y " (and) y "o " (or) permite construir complejas expresiones boleanas, por ejemplo:
 
-name = "John"
+#Comprobacion acceso por edad al contenido B
 age = 23
-if name == "John" and age == 23:
-    print "tu nombre es John, y tu tienes 23 años."
+if nombre == "Juan" and edad >= 18:
+    print ("Ha accedido correctamente al contenido 'B'")
 
-if name == "John" or name == "Rick":
-    print "Tu nombre es John o puede ser  Rick."
-#El operador "in"
-#El operador "in" puede ser usado para checar si un objeto especifico existe mientras el mismo objeto itera en un contenedor, tanto com una lista:
+#Comprobacion acceso por edad al contenido C
 
-if name in ["John", "Rick"]:
-    print "Su nombre puede ser John or Rick."
-#Python usa indentacion para definir bloques de código, en lugar de llaves o paréntesis. El estandar de indentacion de python es 4 espacios, aunque el tab y algunos otros espacios funcionará, siempre y cuando sean consistente, es decir tengan el mismo tipo de sangrado (separación). Los bloques de código no necesitan de una terminación.
+if nombre == "John" or nombre == "Ana":
+    print ("Ha accedido correctamente al contenido 'C'")
 
-#Por ejemplo:
+    
+#Ejemplo 2
 
 x = 2
 if x == 2:

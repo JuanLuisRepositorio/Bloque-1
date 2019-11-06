@@ -72,22 +72,3 @@ if x > 10:
     print("and also above 20!")
   else:
     print("but not above 20.")
-
-#Se presenta algunos ejemplos donde los objetos son considerados como vacíos:
-
-Una Cadena vacia: ""
-Una lista vacia: []
-El numero cero: 0
-La variable boelana falsa: False
-El operador "is"
-A diferencia del doble operador de igualdad "==", el operador "is" no sola iguala los valores de las varialbes, si no entre ellos. Por ejemplo
-
-x = [1,2,3]
-y = [1,2,3]
-print x == y # Imprime en pantalla TRUE
-print x is y # Imprime en pantalla FALSE
-El operador "not"
-Usando "not" delante de una expresión booleana se invierte:
-
-print not False # Imprime en pantalla TRUE
-print (not False) == (False) # Imprime en pantalla FALSE

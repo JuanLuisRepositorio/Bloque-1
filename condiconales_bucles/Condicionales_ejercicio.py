@@ -1,4 +1,4 @@
-#cambia los textos para que se muestre el mensaje de acceder al contenido solo si es mayor ede edad o es un menor que esta con sus padres
+#cambia los textos para que se muestre el mensaje de acceder al contenido solo si es mayor de edad o es un menor que esta con sus padres
 
 
 edad = int(input("¿Cuántos años tiene? "))

@@ -14,3 +14,18 @@ for i in range(1, 6):
 
 print("Gracias a todos por venir")
 
+
+#Ejemplo 4
+#bucle while 1
+i = 1
+while i <= 3:
+    print(i)
+    i += 1
+print("Programa terminado")
+
+#bucle while 2
+i = 1
+while i <= 50:
+    print(i)
+    i = 3 * i + 1
+print("Programa terminado")

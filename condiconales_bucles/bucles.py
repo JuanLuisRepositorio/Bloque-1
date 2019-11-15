@@ -1,21 +1,19 @@
 #Ejemplo 3
-#bucle for 1
+print("Imprimimos los números de 1 a 10")
+for i in range(1, 10):
+    print("número: "+ str(i))    
 
+
+#Ejemplo 4
 print("Número de participantes de los cuatro primeros trimestres")
 for i in [32, 35, 14, 16]:
     print("Participantes: "+ str(i))
 
+print("¿En que paises tenemos oficinas?")
+for i in ["Chile", "Ecuador", "Peru", "Argentina", "España", "Brasil"]:
+    print("Tenemos oficina en: "+ str(i))
 
-
-#bucle for 2
-print("Saludamos a los 6 compañeros nuevos")
-for i in range(1, 6):
-    print("Hola compañero: "+ str(i))    
-
-print("Gracias a todos por venir")
-
-
-#Ejemplo 4
+#Ejemplo 5
 #bucle while 1
 i = 1
 while i <= 3:

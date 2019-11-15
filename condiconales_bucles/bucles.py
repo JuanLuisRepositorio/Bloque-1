@@ -6,9 +6,11 @@ for i in range(1, 10):
 
 #Ejemplo 4
 print("Número de participantes de los cuatro primeros trimestres")
+a = 1
 for i in [32, 35, 14, 16]:
-    print("Participantes: "+ str(i))
-
+    print("En el "+ str(a) + "º semestre tenemos "+ str(i) + " participantes")
+    a += 1
+    
 print("¿En que paises tenemos oficinas?")
 for i in ["Chile", "Ecuador", "Peru", "Argentina", "España", "Brasil"]:
     print("Tenemos oficina en: "+ str(i))

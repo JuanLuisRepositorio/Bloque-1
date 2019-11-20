@@ -5,3 +5,5 @@
 #logaritmo
 
 #Muestra los resultados en líneas independientes como en el ejemplo anterior
+
+numero = 18.5

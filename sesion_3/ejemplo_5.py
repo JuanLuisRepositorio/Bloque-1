@@ -7,4 +7,4 @@ media = statistics.mean(importes)
 mediana = statistics.median(importes)
 desviacion_estandar = statistics.stdev(importes)
 
-print("Nuestros resultados son:\n media: "+ str(media)  +"\n mediana: " + str(mediana) + "\ndesviacion estandar: " + str(desviacion_estandar))
+print("Media: "+ str(media)  +" Mediana: " + str(mediana) + " Desviacion estandar: " + str(desviacion_estandar))
